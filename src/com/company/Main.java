@@ -6,17 +6,17 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println("Enter integer check if even and odd");
-        int integer = new Scanner(System.in).nextInt();
-        if(isEven(integer) == true){
-            System.out.println("Number " +integer+ " is even" );
+        System.out.println("Enter value check if even and odd");
+        int value = new Scanner(System.in).nextInt();
+        if(isEven(value) == true){
+            System.out.println("Number " +value+ " is even" );
         }
         else {
-            System.out.println("Number "+integer+" is odd");
+            System.out.println("Number "+value+" is odd");
         }
     }
 
-    public static boolean isEven(int integer){
+    public static boolean isEven(int value){
         if(integer % 2 == 0){
             return  true;
         }
